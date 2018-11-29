@@ -6,7 +6,6 @@ steps:
 - task: PowerShell@2
   displayName: 'PowerShell Script'
   inputs:
-    targetType: ./
 
     filePath: Helloworld.ps1
 
